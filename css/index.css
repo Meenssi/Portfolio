@@ -1,0 +1,86 @@
+
+body{
+    background-color: #f9ffdc;
+    line-height: 2;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+ 
+}
+*{
+    letter-spacing: 2px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.header { /* class header */
+    padding: 0;
+    text-align: center;
+    background-color: #967fff;
+    
+}
+
+
+.btn-1 { /*ปุ่มกด (Profile)*/
+    width: 200px;
+    height: 50px;
+    border: 5px outset #967fff;
+    outline: 5px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #f9f9f9;
+    transition: ease-out 0.3s;
+}
+
+.btn-1:hover { /*fx ปุ่มกด*/
+    box-shadow: inset 200px 0 0 0 #99daeb;
+}
+
+.btn-2 { /*ปุ่มกด (About Me)*/
+    width: 200px;
+    height: 50px;
+    border: 5px outset #967fff;
+    outline: 5px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: inset 0 0 0 0 #f9f9f9;
+    transition: ease-out 0.3s;
+}
+.btn-2:hover { /*fx ปุ่มกด*/
+    box-shadow: inset 200px 0 0 0 #99daeb;
+}
+
+
+table { /*ตาราง*/
+    text-align: center;
+    width: 100%;
+}
+
+td { /*ขนาดแต่ละช่องในตาราง*/
+    width: 33.33%;
+}
+
+#th-Text { /* Id Selector*/
+    text-align: center;
+    color: #000000;
+}
+
+h6{ /*ทำเป็นกล่องข้อความ กำหนดสีพท้นหลัง ขนาดตัวอักษา*/
+    font-size: 15px;
+    padding: 1em;
+    height:  250px;
+    text-align: left;
+    background-color: pink;
+    
+}
+
+.content { /*class content*/
+    width: 100%; /*ขนาดตาราง เต็มหน้าจอพอดี*/
+    
+}
